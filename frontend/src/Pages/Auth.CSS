@@ -1,0 +1,189 @@
+/* ================================
+   AUTH PAGE
+================================ */
+
+.auth-page {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background: #080b14;
+}
+
+
+/* ================================
+   AUTH CARD
+================================ */
+
+.auth-card {
+    width: 100%;
+    max-width: 460px;
+    padding: 42px;
+    background: #111625;
+    border: 1px solid #252c3d;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+
+/* ================================
+   LOGO
+================================ */
+
+.auth-logo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 28px;
+    color: white;
+}
+
+.auth-logo span {
+    color: #7c5cff;
+}
+
+
+/* ================================
+   HEADING
+================================ */
+
+.auth-card h1 {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+
+/* ================================
+   SUBTITLE
+================================ */
+
+.auth-subtitle {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
+/* ================================
+   FORM GROUP
+================================ */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+/* ================================
+   LABEL
+================================ */
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #e5e7eb;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* ================================
+   INPUT
+================================ */
+
+.form-group input {
+    width: 100%;
+    padding: 13px 14px;
+    border-radius: 8px;
+    border: 1px solid #343b50;
+    background: #0b0f1a;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+
+.form-group input::placeholder {
+    color: #6b7280;
+}
+
+
+.form-group input:focus {
+    border-color: #7c5cff;
+    box-shadow: 0 0 0 3px rgba(124, 92, 255, 0.15);
+}
+
+
+/* ================================
+   BUTTON
+================================ */
+
+.auth-button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #6d5dfc;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.auth-button:hover {
+    background: #7c6cff;
+    transform: translateY(-1px);
+}
+
+
+/* ================================
+   SWITCH
+================================ */
+
+.auth-switch {
+    margin-top: 24px;
+    text-align: center;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+
+.auth-switch a {
+    color: #8b7cff;
+    font-weight: 600;
+}
+
+
+.auth-switch a:hover {
+    text-decoration: underline;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+    .auth-page {
+        padding: 20px;
+    }
+
+    .auth-card {
+        padding: 28px 22px;
+    }
+
+    .auth-card h1 {
+        font-size: 27px;
+    }
+
+}

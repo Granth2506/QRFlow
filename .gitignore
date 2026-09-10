@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+qrflow.db
+*.db
+.env
+app_backup.py
+app_backup_payment.py
+QRFlow_updated_app.py
