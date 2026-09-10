@@ -15,7 +15,7 @@ function Analytics() {
     const loadAnalytics = async () => {
       try {
         const eventsResponse = await fetch(
-          "http://127.0.0.1:5000/api/events"
+          "https://qrflow-gkjt.onrender.com/api/events"
         );
         const eventsData = await eventsResponse.json();
 
@@ -26,14 +26,14 @@ function Analytics() {
         setEvent(selectedEvent);
 
         const registrationsResponse = await fetch(
-          `http://127.0.0.1:5000/api/events/${id}/registrations`
+          `https://qrflow-gkjt.onrender.com/api/events/${id}/registrations`
         );
 
         const registrationsData = await registrationsResponse.json();
         setRegistrations(registrationsData);
 
         const ticketsResponse = await fetch(
-          `http://127.0.0.1:5000/api/events/${id}/tickets`
+          `https://qrflow-gkjt.onrender.com/api/events/${id}/tickets`
         );
 
         const ticketsData = await ticketsResponse.json();

@@ -188,7 +188,7 @@ function Scanner() {
 
       const response = await fetch(
 
-        `http://127.0.0.1:5000/api/tickets/${ticketCode}/scan`,
+        `https://qrflow-gkjt.onrender.com/api/tickets/${ticketCode}/scan`,
 
         {
           method: "POST",

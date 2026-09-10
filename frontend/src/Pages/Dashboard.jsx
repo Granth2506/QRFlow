@@ -22,7 +22,7 @@ function Dashboard() {
 
         // Fetch all events
         const eventsResponse = await fetch(
-          "http://127.0.0.1:5000/api/events"
+          "https://qrflow-gkjt.onrender.com/api/events"
         );
 
         const eventsData = await eventsResponse.json();
@@ -54,11 +54,11 @@ function Dashboard() {
             try {
 
               const registrationsResponse = await fetch(
-                `http://127.0.0.1:5000/api/events/${event.id}/registrations`
+                `https://qrflow-gkjt.onrender.com/api/events/${event.id}/registrations`
               );
 
               const ticketsResponse = await fetch(
-                `http://127.0.0.1:5000/api/events/${event.id}/tickets`
+                `https://qrflow-gkjt.onrender.com/api/events/${event.id}/tickets`
               );
 
 

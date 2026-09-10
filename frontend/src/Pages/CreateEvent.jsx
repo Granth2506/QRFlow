@@ -35,7 +35,7 @@ function CreateEvent() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:5000/api/events",
+        "https://qrflow-gkjt.onrender.com/api/events",
         {
           method: "POST",
           headers: {

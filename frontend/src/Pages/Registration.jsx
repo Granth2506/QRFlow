@@ -21,7 +21,7 @@ function Registration() {
     const fetchEvent = async () => {
       try {
         const response = await fetch(
-          "http://127.0.0.1:5000/api/events"
+          "https://qrflow-gkjt.onrender.com/api/events"
         );
 
         const data = await response.json();
@@ -63,7 +63,7 @@ function Registration() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:5000/api/registrations",
+        "https://qrflow-gkjt.onrender.com/api/registrations",
         {
           method: "POST",
           headers: {
